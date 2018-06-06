@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style type="text/css">
+input[type=text],[type=number],[type=password], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+</style>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="back">
+<div class="bodypart">
+
+
+<center><h1>Library Management System</h1></center>
+<hr>
+
+		<div class ="navbar">
+			<ul >
+				<li><a href="Main.html">Profile</a></li>
+				<li><a href="Borrow.html">Borrow</a></li>
+				
+				<li><a href="Main.html">Book Taken</a></li>
+				<li><a href="login.html">LoG Out</a></li>
+			</ul>
+	   </div>
+	   
+	   <div class="img">
+	     <img src="img/lb1.jpg" height="300" width="1000">
+	   </div>
+
+
+
+		<form action="borrow" method="post">
+		<h2><u>Borrow a Book</u></h2>
+			<fieldset>
+			<legend><u>Borrow A Book</u></legend>
+				SSN: <input type="number" placeholder="Enter your College SSN number" name="ssn" required>
+				Book Name:<input type="text" placeholder="Enter your book name" name="bname" required>
+				Faculty:<input type="text" Placeholder="Enter your faculty name" name="faculty" required>
+				<input type="submit" Value="Borrow">
+			</fieldset>
+		</form>
+
+</div>
+</div>
+</body>
+</html>

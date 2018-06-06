@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:3%;
+	padding:0px;
+	background:white;
+}
+ .back{
+	background-color:#e6ffff;
+	border-radius:9px;
+	padding:20px;
+}
+
+
+input[type=text],[type=email],[type=password], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+}
+</style>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/csstest.css">
+<title>Login</title>
+</head>
+<body>
+<div class="back">
+	<H1 style="background-color:#7163cf;">
+		<center>Library Management Sytem</center>
+	</H1>
+	
+	<center><img src="img/lb1.jpg" height="400" width="1000"></center>
+	<div>
+	<div >
+		<div class="inline">
+			<h2><u>Student login</u></h2>
+			<fieldset>
+				<legend>Log In</legend>
+				<form action="loginpath"   method="post">
+					    UserName:<br> <input type="email" Placeholder="abc@yahoo.com" name="uname" required><br> <br> 
+						PassWord:<br> <input type="password" placeholder="Pasword" name="pass" required><br> <br>
+					<input type="submit" value="Log In">
+				</form>
+			</fieldset>
+		</div>
+		<div class="inline">
+		
+		<h2><u>Admin Login</u></h2>
+		<fieldset>
+		
+		<legend>Admin Login</legend>
+			<form  action="admin" method="post" >
+				 UserName:<br> <input type="email" Placeholder="abc@yahoo.com"
+				 name="uname" required><br> <br> PassWord:<br> <input
+				type="password" placeholder="Pasword" name="pass" required><br> <br>
+				<input type="submit" value="Log In">
+				</form>	
+		</fieldset>
+		</div>
+		<div style="padding:10px;"></div>
+		<div class="Register">
+			<h2><u>New User Register</u></h2>
+			<fieldset>
+		  <form action="Register" method="post">
+		  		Number: <input type="text" placeholder="enter any number you want" name="id" required><br><br>
+		  	   First Name: <input type="text" placeholder="Your Name" name="name" required><br><br>
+		  	   Last Name: <input type="text" placeholder="Your Last Name.." name="lname" required><br><br>
+		       Email:<input type="email" placeholder="abc@yahoo.com" name="email" required><br><br>
+		       Password:<input type="password" placeholder="Password" name="pass" required><br><br>
+		       Gender: 
+		        <input type="radio" name="gender" value="male" name="gender"> Male
+		 		 <input type="radio" name="gender" value="female" name="gender"> Female
+  				<input type="radio" name="gender" value="other" name="gender"> Other<br><br>
+		       <input type="Submit" value="Create">
+		  
+		  </form>
+		</fieldset>
+		</div>
+		
+
+	</div>
+	<div class="block"></div>
+	</div>
+	</div>
+</body>
+</html>

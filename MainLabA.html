@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+	margin-left:15%;;
+	margin-right:15%;
+	margin-top:3%;
+	padding:0px;
+	background:white;
+}
+fieldset{
+background-color:#e6ffff;
+}
+
+.slideshow{
+  margin-left:250px;
+  margin-top:-300px;
+}
+.navbar ul li{
+	list-style-type:none;
+	padding:15px;
+	border-right:2px solid black;
+	width:100px;
+	border-bottom:2px dotted black;	
+	
+}
+</style>
+<meta charset="UTF-8">
+
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="jquery-3.2.1.mini.map"></script>
+<script type="text/javascript"
+	src="http://malsup.github.com/jquery.cycle.all.js"></script>
+﻿
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.slideshow').cycle({
+			fx : 'fade'
+		});
+	});
+	
+	
+	
+</script>
+<title>Insert title here</title>
+</head>
+<body bgcolor="">
+<div class="back">	
+<div class="bodypart">
+<fieldset>
+			<div class="hading">
+				<a href="#"><img src="img/logo.svg" height="100" width="90"
+					class="img"></a>
+			</div>
+			
+			<h1>
+				<center style="margin-top:-100px;">
+					<a href="#">Library Management System</a>
+				</center><br>
+			</h1>
+<hr>
+<br>
+
+<div class ="navbar">
+			<ul >
+				<li><a href="Main.html">Profile</a></li>
+				<li><a href="Borrow.html">Borrow</a></li>
+				<li><a href="Return.html">Return</a></li>
+				<li><a href="Main.html">Book Taken</a></li>
+				<li><a href="login.html">Lou Out</a></li>
+			</ul>
+	   </div>
+
+
+			<div class="slideshow">
+					<img src="img/lb1.jpg" height="400" width="1000"> <img
+					src="img/lb2.jpg" height="400" width="1000"> <img
+					src="img/lb3.jpg" height="400" width="1000">
+			</div>
+			
+			
+<footer>
+
+<p>Library Management System</p>
+</footer>
+</fieldset>
+</div>
+</div>
+</body>
+</html>
