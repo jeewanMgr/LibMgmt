@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+/* making the styling for the body of the pages */
+body{
+	margin-left:15%;;
+	margin-right:15%;
+	margin-top:3%;
+	padding:0px;
+	background:white;
+}
+/* field set of the main body pages */
+.back{
+	background-color:#e6ffff;
+	border-radius:9px;
+}
+.bodypart{
+	padding-left:5px;
+}
+/* navigation bar unorder list style*/
+ ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-color:#7163cf;
+	border-radius:5px;
+}
+/* nav bar li decoration */
+ul li{
+	float:left;
+	padding:5px;
+	width:120px;
+	font-size:30px;
+	
+}
+/* mav bar items links decoration*/
+  ul li a{
+    text-decoration:none;
+	background-color:bluelight;
+	widht:20px;
+	color:white;
+	display:clear;
+}
+
+#img{
+	padding-right:15%;
+}
+
+.imgside {
+	float:left;
+}
+
+.inline fieldset{
+	 display: inline-block;
+    border: 3px solid #73AD21; 
+border: 2px solid silver; 
+width: 200px;
+ padding: 10px;
+  border-radius: 10px;
+	}
+
+ol li{
+	list-style-type:none;
+}
+.Register{
+ border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    radius:10px;
+}

@@ -1,0 +1,34 @@
+ @CHARSET "UTF-8";
+body{
+	margin-left:15%;;
+	margin-right:15%;
+	margin-top:3%;
+	padding:0px;
+	background:white;
+}
+/* field set of the main body pages */
+.back{
+	background-color:#e6ffff;
+	border-radius:9px;
+}
+.bodypart{
+	padding-left:5px;
+}
+.navbar ul li{
+	list-style-type:none;
+	padding:15px;
+	border-right:2px solid black;
+	width:100px;
+	border-bottom:2px dotted black;	
+	
+}
+.navbar  li:hover{
+padding:5 6px;
+color:red;
+background-color:pink;
+}
+
+img{
+	margin-top:-180px;
+	margin-left:200px;
+}
